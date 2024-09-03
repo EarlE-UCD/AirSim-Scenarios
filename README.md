@@ -1,8 +1,8 @@
 # Welcome to the AirSim Scenario Simulator
 
-This project uses Microsoft's AirSim to simulate different drone flight scenarios. The project consists of several different flight scenarios that demonstrate different drone functionalities, namely navigation, perception, and planning, as well as communication between separate drones. A custom map is used for this project, and this map consists of 
+This project uses Microsoft's AirSim to simulate different drone flight scenarios. The project consists of twelve different flight scenarios that demonstrate different drone functionalities, namely navigation, perception, and planning, as well as communication between separate drones. A custom map is used for this project, and this map consists of a different course for each of the twelve flight scenarios.  Each scenario is designed to highlight a certain drone functionality (or some combination of functionalities) or some specific aspect of a functionality (e.g. latency or maximum broadcast distance in communication demonstrations).
 
-![image](https://github.com/user-attachments/assets/e9ab848a-aeac-4a2a-9f70-78ee61507759)
+![image](https://github.com/user-attachments/assets/e9ab848a-aeac-4a2a-9f70-78ee61507759 | width=100)
 
 ## Download the map
 
