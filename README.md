@@ -8,9 +8,13 @@ This project uses Microsoft's AirSim to simulate different drone flight scenario
 ## Demonstrations
 
 **Before and after shots**
-(insert images and gifs here)
+![ringsTestGif](https://github.com/user-attachments/assets/7a0076b5-2833-4a1e-9617-a71eb15f520e)
+
+![tubeTestGif](https://github.com/user-attachments/assets/2853a550-6b56-48fc-8e31-3c8b1ef5e97a)
+
 ![cornerTestGif](https://github.com/user-attachments/assets/34860802-8536-4e6b-8867-2692cdf09a4a)
 
+![updownTestGif](https://github.com/user-attachments/assets/de873ddb-d682-43f6-8d83-0cf40c1cc728)
 
 **Videos**
 (insert videos here)
