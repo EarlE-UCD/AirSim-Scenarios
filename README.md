@@ -7,28 +7,32 @@ This project uses Microsoft's AirSim to simulate different drone flight scenario
 
 ## Demonstrations
 
+**Video**
+
+(insert video here)
+
+
 **Gifs**
 
-*Rings Test*
+*Rings Test*: Demonstrates **planning** by moving through a series of rings based on predetermined coordinates
 
 ![ringsTestGif](https://github.com/user-attachments/assets/7a0076b5-2833-4a1e-9617-a71eb15f520e)
 
-*Tube Test*
+
+*Tube Test*: Demonstrates **navigation** by moving through a tube with turns and **perception** by using distance sensors to detect corners in the tube
 
 ![tubeTestGif](https://github.com/user-attachments/assets/2853a550-6b56-48fc-8e31-3c8b1ef5e97a)
 
 
-*Corner Test*
+*Corner Test*: Demonstrates **planning** by moving in a telegraphed straight path and **communication** by having drones move on diverging paths when they detect that they are close to each other; this also demonstrates communication being used for collision avoidance when two drones are not in each others' line of sight
 
 ![cornerTestGif](https://github.com/user-attachments/assets/34860802-8536-4e6b-8867-2692cdf09a4a)
 
-*Up-down Test*
+
+*Up-down Test*: Demonstrates **planning** by having the bottom drone move in a predictable straight path, **perception** b having the bottom drone detect indicators, and **communication** by having the bottom drone communicate the detection of these indicators to the top drone to influence the top drone's movement; this also demonstrates communication being used in a way in which the signal from one drone affects the movement of another drone
 
 ![updownTestGif](https://github.com/user-attachments/assets/de873ddb-d682-43f6-8d83-0cf40c1cc728)
 
-**Videos**
-
-(insert videos here)
 
 ## How to setup the project
 
