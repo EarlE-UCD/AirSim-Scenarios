@@ -12,7 +12,6 @@ This project uses Microsoft's AirSim to simulate different drone flight scenario
 (insert video here)
 
 
-
 **Gifs**
 
 *Rings Test*: Demonstrates **planning** by moving through a series of rings based on predetermined coordinates
@@ -20,17 +19,14 @@ This project uses Microsoft's AirSim to simulate different drone flight scenario
 ![ringsTestGif](https://github.com/user-attachments/assets/7a0076b5-2833-4a1e-9617-a71eb15f520e)
 
 
-
 *Tube Test*: Demonstrates **navigation** by moving through a tube with turns and **perception** by using distance sensors to detect corners in the tube
 
 ![tubeTestGif](https://github.com/user-attachments/assets/2853a550-6b56-48fc-8e31-3c8b1ef5e97a)
 
 
-
 *Corner Test*: Demonstrates **planning** by moving in a telegraphed straight path and **communication** by having drones move on diverging paths when they detect that they are close to each other; this also demonstrates communication being used for collision avoidance when two drones are not in each others' line of sight
 
 ![cornerTestGif](https://github.com/user-attachments/assets/34860802-8536-4e6b-8867-2692cdf09a4a)
-
 
 
 *Up-down Test*: Demonstrates **planning** by having the bottom drone move in a predictable straight path, **perception** b having the bottom drone detect indicators, and **communication** by having the bottom drone communicate the detection of these indicators to the top drone to influence the top drone's movement; this also demonstrates communication being used in a way in which the signal from one drone affects the movement of another drone
@@ -77,3 +73,7 @@ Once the AirSim is loaded onto an Unreal Engine project with the custom map, the
 
 **Takeoff flight times**
 - For some of the flight scenarios, it takes awhile for the drones to fly from spawn to the corresponding course and position themselves to start the course
+
+**Lighting**
+- It is recommended to use "medium" lighting quality in the Unreal Project
+- Make sure to build the lighting before running the project to avoid awkward shadows
