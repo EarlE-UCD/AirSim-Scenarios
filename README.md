@@ -41,22 +41,25 @@ This project uses Microsoft's AirSim to simulate different drone flight scenario
 - Unreal Engine 4.27
 
 **Steps**
-1) Download the Unreal Project file for this project in the following Google Drive folder: https://drive.google.com/drive/folders/1_LDcNGHn1BbTyQ0k0bJot1F8ht8U57MJ?usp=sharing
-2) Create an Unreal Project containing AirSim by following AirSim's documentation (https://microsoft.github.io/AirSim/unreal_custenv/) or the following video: https://www.youtube.com/watch?v=BVkN3CCMg4A
-3) In project folder, replace the created Unreal Project file with the custom Unreal Project file downloaded earlier
-4) Update the settings.json file (found in the "AirSim" folder) to match the settings.json folder uploaded to this repository
-5) Create a Conda environment using Python 3.6
+1) Download the Unreal Project folder for this project (named "AirSimScenariosSimulator") in the following Google Drive folder: https://drive.google.com/drive/folders/1_LDcNGHn1BbTyQ0k0bJot1F8ht8U57MJ?usp=sharing
+2) To first set up AirSim on your device, create an Unreal Engine project on any Unreal Engine environment using the following video: https://www.youtube.com/watch?v=BVkN3CCMg4A (if AirSim has not been installed on your device before, you can skip to 7:43 in the video)
+3) Once AirSim is set up, copy the Unreal Project folder from Google Drive into the "Unreal Projects" folder, which is typically located in "Documents"
+4) Update the settings.json file (found in the "AirSim" folder, which is typically located in "Documents") to match the settings.json folder uploaded to this repository
+5) Import the flight scenario Python scripts (the Python files in the folders "Single Drone Tests" and "Multi-Drone Tests") into the "multirotor" folder, which should be located in the "PythonClient" folder
+6) Also import the Python file "reset_simulator.py" to the "multirotor" folder
+7) In the Unreal Engine Project folder that was copied into the "Unreal Projects" folder, open the Unreal Project file (named "AirSimProject") using the Unreal Engine Editor
+8) Create a conda environment using Python 3.6, which will be used to run the Python scripts for the different flight scenarios
 
 
 ## How this project works
 
 Once the AirSim is loaded onto an Unreal Engine project with the custom map, the Python scripts for the different scenarios can be run by doing the following:
 
-1) Run the project
-2) Activate the Conda environment created for this project
-3) Navigate to the folder containing the Python scripts
-4) Use the command line in the conda environment to run one of the scripts
-5) Once the script is running, press the appropriate keys according to the printed prompts to proceed through the scenario
+1) Run the project in the Unreal Engine
+2) Activate the conda environment created for this project
+3) In the conda environment, navigate to the the "multirotor" folder
+4) Use the command line in the conda environment to run one of the scripts by typing "python <file name>.py" (e.g. drone_test_rings.py)
+5) Once the script is running, press the appropriate keys according to the printed prompts in the conda environment to proceed through the scenario
 
 
 ## Miscellaneous notes for the simulator
