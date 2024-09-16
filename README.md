@@ -61,6 +61,8 @@ Once the AirSim is loaded onto an Unreal Engine project with the custom map, the
 4) Use the command line in the conda environment to run one of the scripts by typing "python <file name>.py" (e.g. drone_test_rings.py)
 5) Once the script is running, press the appropriate keys according to the printed prompts in the conda environment to proceed through the scenario
 
+Note that when running these scripts for the first time, some necessary Python libraries may not be installed in the conda environment, which will result in failure to run the script and an error message telling you which missing library caused the error. When this happens, type "conda install <name of library>". Once all of the necessary libraries are installed, the scripts should be able to run.
+
 
 ## Miscellaneous notes for the simulator
 
