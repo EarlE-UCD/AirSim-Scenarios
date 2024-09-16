@@ -66,7 +66,7 @@ This project uses Microsoft's AirSim to simulate different drone flight scenario
 
 8) Create a conda environment using Python 3.6 by following: https://microsoft.github.io/AirSim/apis/
 
-Note that when running any of the flight scenario Python scripts for the first time, some necessary Python libraries may not be installed in the conda environment, which will result in failure to run the script and an error message telling you which missing library caused the error. When this happens, type "conda install NAME_OF_LIBRARY" (e.g. conda install opencv). Once all of the necessary libraries are installed, the scripts should be able to run.
+Note that when running any of the flight scenario Python scripts for the first time, some necessary Python libraries may not be installed in the conda environment, which will result in failure to run the script and an error message telling you which missing library caused the error. When this happens, type "conda install NAME_OF_LIBRARY" (e.g. conda install opencv). Also, some libraries may require you to type "pip install" instead. Once all of the necessary libraries are installed, the scripts should be able to run.
 
 
 ## How this project works
