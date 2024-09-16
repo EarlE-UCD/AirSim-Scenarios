@@ -83,7 +83,7 @@ Once the AirSim is loaded onto an Unreal Engine project with the custom map, the
 ## Miscellaneous notes for the simulator
 
 **Resetting the simulator**
-- If you need to cancel the performance of the task, it is recommanded that you stop the current process with ctrl+c on the command line and then run the script reset_simulator.py before pausing or stopping the project from running; this is to prevent the Unreal Engine from freezing when attempting to stop the project while a task is still running
+- If you need to cancel the performance of the task, it is recommanded that you stop the current process with "ctrl" + "c" on the command line and then run the script reset_simulator.py before pausing or stopping the project from running; this is to prevent the Unreal Engine from freezing when attempting to stop the project while a task is still running
 
 **Coordiates**
 - In the AirSim APIs, the +z-direction is downward, but in the Unreal Engine editor, the +z-direction is upward
