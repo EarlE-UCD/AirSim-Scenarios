@@ -44,10 +44,26 @@ This project uses Microsoft's AirSim to simulate different drone flight scenario
 1) Download the Unreal Project folder for this project (named "AirSimScenariosSimulator") in the following Google Drive folder: https://drive.google.com/drive/folders/1_LDcNGHn1BbTyQ0k0bJot1F8ht8U57MJ?usp=sharing
 2) To first set up AirSim on your device, create an Unreal Engine project on any Unreal Engine environment using the following video: https://www.youtube.com/watch?v=BVkN3CCMg4A (if AirSim has not been installed on your device before, you can skip to 7:43 in the video)
 3) Once AirSim is set up, copy the Unreal Project folder from Google Drive into the "Unreal Projects" folder, which is typically located in "Documents"
+
+![Screenshot 2024-09-16 095118](https://github.com/user-attachments/assets/70c824d9-23d1-45c4-a3c0-9076b044b772)
+
+
 4) Update the settings.json file (found in the "AirSim" folder, which is typically located in "Documents") to match the settings.json folder uploaded to this repository
+
+![Screenshot 2024-09-16 095434](https://github.com/user-attachments/assets/67487f03-7880-4791-b9a7-c7245a93d12d)
+
+
 5) Import the flight scenario Python scripts (the Python files in the folders "Single Drone Tests" and "Multi-Drone Tests") into the "multirotor" folder, which should be located in the "PythonClient" folder
+
+![Screenshot 2024-09-16 095656](https://github.com/user-attachments/assets/4e881eb3-cd9a-47cf-81de-742cd8d9cda9)
+
+
 6) Also import the Python file "reset_simulator.py" to the "multirotor" folder
 7) In the Unreal Engine Project folder that was copied into the "Unreal Projects" folder, open the Unreal Project file (named "AirSimProject") using the Unreal Engine Editor (you just have to open it from the folder this first time; you can open the project directly from the Unreal Engine Editor after)
+
+![Screenshot 2024-09-16 095839](https://github.com/user-attachments/assets/800d8a4c-3050-468a-9e3b-4b8e484809e1)
+
+
 8) Create a conda environment using Python 3.6, which will be used to run the Python scripts for the different flight scenarios
 
 Note that when running any of the flight scenario Python scripts for the first time, some necessary Python libraries may not be installed in the conda environment, which will result in failure to run the script and an error message telling you which missing library caused the error. When this happens, type "conda install <name of library>". Once all of the necessary libraries are installed, the scripts should be able to run.
